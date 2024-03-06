@@ -100,6 +100,9 @@ body{
   left: 769px;
   top: -84px;
 }
+
+
+
 .div,
 .div * {
   box-sizing: border-box;
@@ -146,7 +149,7 @@ position: absolute;
 width: 477.45px;
 height: 119px;
 left: 450px;
-top: 371px;
+top: 400px;
   position: absolute;
   transform: translate(0.5px,9.5px);
   overflow: visible;
@@ -160,7 +163,7 @@ top: 371px;
   font-weight: 300;
   position: absolute;
   left: 355px;
-  top: 385px;
+  top: 400px;
   width: 800px;
   height: 36px;
 }
@@ -211,4 +214,188 @@ left: 87px;
 top: 75px;
 
 
+}
+.services-text {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 21px;
+  line-height: 120%;
+  font-weight: 300;
+  position: absolute;
+  top: 102px;
+  width: 800px;
+  height: 36px;
+  left: 290px;
+}
+.services-prices{
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 21px;
+  line-height: 120%;
+  font-weight: 300;
+  position: absolute;
+ left: 70px;
+  top: 223px;
+  width: 1106px;
+  height: 144px;
+}
+.desktop2,
+.desktop2 * {
+  box-sizing:
+   border-box;
+}
+body{
+  margin: 0;
+  font-family:
+  'Montserrat',
+  sans-serif;
+}
+.desktop2 {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 55, 1) 13.801756501197815%,
+    rgba(65, 30, 90, 0.86) 100%
+  );
+  height: 740px;
+  position: relative;
+  overflow: hidden;
+}
+.ellipse-1 {
+  background: radial-gradient(
+    closest-side,
+    rgba(46, 12, 62, 0.71) 35.99354326725006%,
+    rgba(42, 28, 49, 0) 100%
+  );
+  border-radius: 50%;
+  width: 812px;
+  height: 785px;
+  position: absolute;
+  left: -266px;
+  top: -206px;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.holod {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 900;
+  position: absolute;
+  left: 726px;
+  top: 18px;
+  width: 98px;
+  height: 34px;
+  -webkit-text-stroke: 1px
+    linear-gradient(
+      90deg,
+      rgba(159, 192, 255, 1) 100%,
+      rgba(21, 163, 138, 1) 100%
+    );
+}
+.logo{
+  width: 26px;
+  height: 10px;
+  position: absolute;
+  left: 685px;
+  top: 3px;
+  transform: translate(0.5px,9.5px);
+  overflow: visible;
+}
+.backgroundblack{
+  background: #000000;
+  border-radius: 23px;
+  width: 1350px;
+  height: 1997px;
+  position: absolute;
+  left: 60px;
+  top: 52px;
+  overflow: hidden;
+}
+.ellipse-2 {
+  background: radial-gradient(
+    closest-side,
+    rgba(65, 30, 90, 0.86) 0%,
+    rgba(149, 115, 174, 0) 87.99999952316284%
+  );
+  border-radius: 50%;
+  width: 916px;
+  height: 998px;
+  position: absolute;
+  left: -376px;
+  top: -84px;
+}
+.ellipse-3 {
+  background: radial-gradient(
+    closest-side,
+    rgba(2, 0, 55, 1) 0%,
+    rgba(112, 39, 165, 0) 87.99999952316284%
+  );
+  border-radius: 50%;
+  width: 916px;
+  height: 998px;
+  position: absolute;
+  left: 769px;
+  top: -84px;
+}
+
+.lyra-f-1 {
+  position: absolute;
+width: 395px;
+height: 130px;
+left: 200px;
+top: 750px;
+  position: absolute;
+  transform: translate(0.5px,9.5px);
+  overflow: visible;
+}
+.hits{
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 21px;
+  line-height: 120%;
+  font-weight: 300;
+  position: absolute;
+  left: 355px;
+  top: 650px;
+  width: 800px;
+  height: 36px;
+}
+.lyra-f-1-text{
+  color: #ffffff;
+  left: 200px;
+  top: 920px;
+  position: absolute;
+  transform: translate(0.5px,9.5px);
+  overflow: visible;
+
+}
+.logo_pnzgu{
+  position: absolute;
+width: 130px;
+height: 130px;
+left: 630px;
+top: 200px;
+
+}
+
+.logo_blood{
+ position: absolute;
+width: 160px;
+height: 95px;
+left: 615px;
+top: 368px;
+}
+.LOGO-piuv{
+position: absolute;
+left: 46.80%;
+right: 44.67%;
+top: 24.94%;
+bottom: 68.91%;
 }

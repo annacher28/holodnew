@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/png" href="img/wind-regular-24.png" />
+  <title>Установка, продажа и обслуживание кондиционеров</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Форма обратной связи на PHP с отправкой на почту</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img class="logoheader" src="img/logoheader.png" alt="" />
+      <h1>Установка, продажа и обслуживание кондиционеров в Пензе</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">Заказать</a></li>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="katalog.html">Каталог</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="forma">
+      <h2>Закажите услугу онлайн</h2>
+      <form action="mail.php" method="post">
+        <fieldset>
+          <legend>Оставьте сообщение:</legend>
+          <br/> Ваше имя*:
+          <input type="text" name="name">
+          <br/>
+          <br/> E-mail*:
+          <input type="text" name="email">
+          <br/>
+          <br/> Номер телефона*:
+          <input type="text" name="phone">
+          <br/>
+          <br/> Сообщение*:
+          <textarea rows="10" cols="45" name="message"></textarea>
+          <input type="submit" value="Отправить сообщение">
+        </fieldset>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

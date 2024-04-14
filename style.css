@@ -68,13 +68,13 @@ body {
     }
     
     .forma{
-        
-        text-align: center;
         max-width: 400px;
         margin: auto;
         flex-wrap: wrap;
     }
-
+.titleforma{
+    text-align: center;
+}
     #services {
     background-color: #f2f2f2;
     text-align: center;
@@ -140,3 +140,57 @@ img {
  text-align: justify;
  flex-wrap: wrap;
 }
+
+@media screen and (max-width:768px) {
+    .container{
+        text-align: center;
+    }
+       .service img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        }
+}
+@media screen and (max-width:480px) {
+    .service img {
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        }
+}
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .KR {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .Cools_Plus_big{
+    width: 350px;
+    height: 150px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h3 {
+    margin: 10px 0;
+  }
+  
+  p {
+    margin: 0;
+  }

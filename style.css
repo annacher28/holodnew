@@ -177,6 +177,13 @@ img {
     border-radius: 5px;
     text-align: center;
     margin-top: 20px;
+    cursor: pointer;
+  }
+  .textKR{
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
   }
   .Cools_Plus_big{
     width: 400px;

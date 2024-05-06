@@ -173,6 +173,7 @@ img {
     display: grid;
     grid-template-rows: auto 1fr auto;
     padding: 10px;
+    transition: 1s;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;

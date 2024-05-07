@@ -14,7 +14,6 @@ body {
     }
     
     header {
-    
     background-color: #333;
     color: #fff;
     padding: 8px 0;
@@ -173,7 +172,6 @@ img {
     display: grid;
     grid-template-rows: auto 1fr auto;
     padding: 10px;
-    transition: 1s;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
@@ -203,4 +201,25 @@ img {
   
   p {
     margin: 0;
+  }
+  .advertisement {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    width: 150px;
+    height: 100px;
+  }
+  
+  .phone {
+    width: 40px;
+    height: 40px;
+    background: url('img/phone-call-regular-24.png');
+    background-size: cover;
+    animation: phoneAnimation 2s infinite;
+  }
+  
+  @keyframes phoneAnimation {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(30deg); }
+    100% { transform: rotate(0deg); }
   }

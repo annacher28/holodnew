@@ -205,7 +205,7 @@ img {
   .advertisement {
     position: fixed;
     bottom: 5px;
-    right: 10px;
+    right: 20px;
     width: 150px;
     height: 100px;
   }
@@ -223,3 +223,57 @@ img {
     50% { transform: rotate(30deg); }
     100% { transform: rotate(0deg); }
   }
+  .carousel-item{
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+  }
+  
+  .carousel-inner{
+    display: flex;
+    margin-top: 20px;
+  }
+  .car_gen{
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid #ddd;
+    
+  }
+  .zaglyra{
+    color: #333;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+  }
+.container2{
+  display: flex;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 20px; 
+  margin-top: 80px;
+  justify-content: space-between;
+}
+.opisanie{
+  
+  max-width: 600px;
+  text-align: left;
+  align-self: center;
+}
+.discrip{
+  display: flex;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 230px;
+}
+@media screen and (max-width:768px) {
+  .container2{
+      justify-content: center;
+  }
+     .car_gen {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      }
+    }

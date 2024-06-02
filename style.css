@@ -165,7 +165,7 @@ img {
     grid-template-rows: repeat(3, 3fr);
     justify-items: center;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 40px;
   }
   
   .KR {
@@ -173,7 +173,7 @@ img {
     grid-template-rows: auto 1fr auto;
     padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius:10px;
     text-align: center;
     margin-top: 20px;
     cursor: pointer;
@@ -193,7 +193,7 @@ img {
     height: auto;
   }
   .KR:hover{
-    transform: scale(1.1) !important;
+    transform: scale(1.03, 1.03) ;
   }
   h3 {
     margin: 10px 0;
@@ -248,7 +248,7 @@ img {
   }
 .container2{
   display: flex;
-  max-width: 1200px;
+  max-width: 1050px;
   margin: 0 auto;
   padding: 0 20px; 
   margin-top: 80px;
@@ -266,4 +266,14 @@ img {
   margin-top: 30px;
   margin-left: 230px;
 }
-
+@media screen and (max-width:768px) {
+  .container2{
+      justify-content: center;
+  }
+     .car_gen {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      }
+    }
